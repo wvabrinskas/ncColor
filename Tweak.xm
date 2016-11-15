@@ -39,7 +39,7 @@
 	[self.backdropView.outputSettings setUsesColorTintView:YES];
 	[self.backdropView addColorTintViewIfNeededForSettings:settings];
 	[self.backdropView prepareForTransitionToSettings:settings];
-    [self.backdropView computeAndApplySettingsForTransition];
+        [self.backdropView computeAndApplySettingsForTransition];
 	[self.backdropView applySettings:settings];
 }
 
